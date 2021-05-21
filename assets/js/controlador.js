@@ -675,7 +675,7 @@ function seleccionMultiple3() {
     } else{
         intentosSeleccionMultiple3++;
 
-        if(intentosSeleccionMultiple3 >= 4){
+        if(intentosSeleccionMultiple3 >= 2){
             Swal.fire(
                 '¡Has superado el número de intentos!',
                 'Deberías revisar nuevamente el contenido relacionado a esta unidad de aprendizaje.',
@@ -754,7 +754,7 @@ function seleccionMultiple2() {
     } else{
         intentosSeleccionMultiple2++;
 
-        if(intentosSeleccionMultiple2 >= 3){
+        if(intentosSeleccionMultiple2 >= 2){
             Swal.fire(
                 '¡Has superado el número de intentos!',
                 'Deberías revisar nuevamente el contenido relacionado a esta unidad de aprendizaje.',

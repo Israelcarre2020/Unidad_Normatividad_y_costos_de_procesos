@@ -35,14 +35,14 @@ function controlAudioSlides(numeroSlide) {
             $("#tabUnidad_aprenderas").addClass("active");
             $(`#unidad_aprenderas`).addClass("active");        
 
-            audioActual = new Audio('assets/voz/U002P01006.mp3');
+            audioActual = new Audio('assets/voz/Sonido5_p3.mp3 ');
             break;            
         case 4:
             $('#carouselActividadAprendizaje1').carousel(0);
-            audioActual = new Audio('assets/voz/U002P01008.mp3');
+            audioActual = new Audio('assets/voz/Sonido7_p4.mp3');
             break;            
         case 5:
-            audioActual = new Audio('assets/voz/U002P01011.mp3');
+            audioActual = new Audio('assets/voz/Sonido13_p5.mp3');
             break;    
         case 6:
             $('#carouselp2-6').carousel(0);
@@ -1449,13 +1449,13 @@ $('#carouselActividadAprendizaje1').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01008.mp3';
+            audioLocation = 'assets/voz/Sonido7_p4.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01009.mp3';
+            audioLocation = 'assets/voz/Sonido 9_p4.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
         default:
             break;

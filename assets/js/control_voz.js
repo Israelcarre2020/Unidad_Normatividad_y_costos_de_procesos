@@ -19,7 +19,7 @@ function controlAudioSlides(numeroSlide) {
 
     switch (numeroSlide) {
         case 1:
-            audioActual = new Audio('assets/voz/U002P01001.mp3');
+            audioActual = new Audio('assets/voz/sonido1_p1.mp3');
             break;
         case 2:
             $(`#tabsObjetivos>div>.tabs>button`).removeClass("active");
@@ -27,7 +27,7 @@ function controlAudioSlides(numeroSlide) {
             $("#tabObjetivos").addClass("active");
             $(`#Objetivos`).addClass("active");         
             
-            audioActual = new Audio('assets/voz/U002P01002.mp3');
+            audioActual = new Audio('assets/voz/Sonido2_p2.mp3');
             break;            
         case 3:
             $(`#tabsAprenderas>div>.tabs>button`).removeClass("active");
@@ -505,6 +505,8 @@ function modal_p67Audio(opcion){
             break;
         default:
             break;
+
+            //hola
     }
 
     reproducirAudio(audioLocation);
@@ -1418,19 +1420,19 @@ function audioTabs(opcion) {
 
     switch (opcion) {
         case 'Objetivos':
-            audioLocation = 'assets/voz/U002P01002.mp3';
+            audioLocation = 'assets/voz/Sonido2_p2.mp3';
             break;
         case 'Contenido':
-            audioLocation = 'assets/voz/U002P01003.mp3';
+            audioLocation = 'assets/voz/Sonido3_p2.mp3';
             break;
         case 'Metodologia':
-            audioLocation = 'assets/voz/U002P01005.mp3';
+            audioLocation = 'assets/voz/Sonido4_p2.mp3';
             break;
         case 'unidad_aprenderas':
-            audioLocation = 'assets/voz/U002P01006.mp3';
+            audioLocation = 'assets/voz/Sonido5_p3.mp3';
             break;
         case 'unidad_necesitas':
-            audioLocation = 'assets/voz/U002P01007.mp3';
+            audioLocation = 'assets/voz/Sonido6_p3.mp3';
             break;
 
         default:

@@ -46,301 +46,301 @@ function controlAudioSlides(numeroSlide) {
             break;    
         case 6:
             $('#carouselp2-6').carousel(0);
-            audioActual = new Audio('assets/voz/U002P01013.mp3');
+            audioActual = new Audio('assets/voz/Sonido14_p6.mp3');
             break;                                              
         case 7:
-            audioActual = new Audio('assets/voz/U002P01021.mp3');
+            audioActual = new Audio('assets/voz/Sonido15_p7.mp3');
             break;                                              
         case 8:          
-            audioActual = new Audio('assets/voz/U002P01024.mp3');
+            audioActual = new Audio('assets/voz/Sonido16_p8.mp3');
             break;            
         case 9:
             $("#carouselp2-9").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01026.mp3');
+            audioActual = new Audio();
             break;            
         case 10:
-            audioActual = new Audio('assets/voz/U002P01033.mp3');
+            audioActual = new Audio('assets/voz/Sonido18_p10.mp3');
             break;            
         case 11:
             $("#carouselp2-11").carousel(0);          
-            audioActual = new Audio('assets/voz/U002P01036.mp3');
+            audioActual = new Audio('assets/voz/Sonido19_p11.mp3');
             break;            
         case 12:
             $("#carouselp2-12").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01040.mp3');
+            audioActual = new Audio('assets/voz/Sonido20_p12.mp3');
             break;
         case 13:      
-            audioActual = new Audio('');
+            audioActual = new Audio();
             break;            
         case 14:
-            audioActual = new Audio('assets/voz/U002P01049.mp3');
+            audioActual = new Audio();
             break;            
         case 15:
             $('#carouselActividadAprendizaje2').carousel(0);
-            audioActual = new Audio('assets/voz/U002P01050.mp3');
+            audioActual = new Audio('assets/voz/Sonido27_p14.mp3');
             break;               
         case 16:
-            audioActual = new Audio('assets/voz/U002P01053.mp3');
+            audioActual = new Audio('assets/voz/Sonido33_p15.mp3');
             break;            
         case 17:
             $('#carouselExampleIndicators11').carousel(0);
-            audioActual = new Audio('assets/voz/U002P01054.mp3');
+            audioActual = new Audio('assets/voz/U002P01054.mp3'); // sin audio
             break;            
         case 18:
-            audioActual = new Audio('assets/voz/U002P01057.mp3');
+            audioActual = new Audio('assets/voz/Sonido35_p17.mp3 ');
             break;            
         case 19:  
             $('#carouselExampleIndicators12').carousel(0);       
-            audioActual = new Audio('assets/voz/U002P01058.mp3');
+            audioActual = new Audio('assets/voz/U002P01058.mp3'); // sin audio
             break;
         case 20:
-            audioActual = new Audio('assets/voz/U002P01060.mp3');
+            audioActual = new Audio('assets/voz/Sonido38_p19.mp3');
             break;            
         case 21:
             $('#carouselExampleIndicators13').carousel(0);
             audioActual = new Audio('assets/voz/U002P01061.mp3');
             break;                         
         case 22:
-            audioActual = new Audio('assets/voz/U002P01063.mp3');
+            audioActual = new Audio('assets/voz/Sonido41_p21.mp3'); 
             break;                         
         case 23:
-            audioActual = new Audio('assets/voz/U002P01064.mp3');
+            audioActual = new Audio('assets/voz/sonido42_p22.mp3'); // sin audio
             break;                         
         case 24:
             $("#carouselExampleIndicators14").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01070.mp3');
+            audioActual = new Audio('assets/voz/Sonido43_p23.mp3');
             break;                         
         case 25: 
             $("#carouselExampleIndicators15").carousel(0);        
-            audioActual = new Audio('assets/voz/U002P01077.mp3');
+            audioActual = new Audio('assets/voz/Sonido43_p23.mp3');
             break;      
         case 26:
-            audioActual = new Audio('assets/voz/U002P01081.mp3');
+            audioActual = new Audio('assets/voz/Sonido51_p25.mp3');
             break;   
         case 27:
             $('.collapse').removeClass('show');
-            audioActual = new Audio('assets/voz/U002P01085.mp3');
+            audioActual = new Audio('assets/voz/Sonido52_p26.mp3');
             break; 
         case 28:
             $('.collapse').removeClass('show');
-            audioActual = new Audio('assets/voz/U002P01087.mp3');
+            audioActual = new Audio('assets/voz/U002P01087.mp3'); // sin audio
             break;
         case 29:
-            audioActual = new Audio('assets/voz/U002P01091.mp3');
+            audioActual = new Audio('assets/voz/Sonido54_p28.mp3');
             break; 
         case 30:
             $("#carouselExampleIndicators16").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01093.mp3');
+            audioActual = new Audio('assets/voz/Sonido55_p29.mp3');
             break;  
         case 31:
             $("#carouselp2-31").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01098.mp3');
+            audioActual = new Audio('assets/voz/U002P01098.mp3');  // sin audio
             break;    
         case 32:
-            audioActual = new Audio('assets/voz/U002P01105.mp3');
+            audioActual = new Audio('assets/voz/U002P01105.mp3');  // sin audio
             break;    
         case 33:
             $("#carouselActividadAprendizaje3").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01106.mp3');
+            audioActual = new Audio('assets/voz/Sonido59_p31.mp3');
             break; 
         case 34:
             $("#carouselExampleIndicators17").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01109.mp3');
+            audioActual = new Audio('assets/voz/Sonido69_p32.mp3');
             break;   
         case 35:
-            audioActual = new Audio('assets/voz/U002P01111.mp3');
+            audioActual = new Audio('assets/voz/Sonido71_p33.mp3');
             break;   
         case 36:
             $("#carouselExampleIndicators18").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01112.mp3');
+            audioActual = new Audio('assets/voz/Sonido72_p34.mp3');
             break;  
         case 37:
-            audioActual = new Audio('assets/voz/U002P01114.mp3');
+            audioActual = new Audio('assets/voz/Sonido74_p35.mp3');
             break;   
         case 38:
             $("#carouselp2-38").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01115.mp3');
+            audioActual = new Audio('assets/voz/Sonido75_p36.mp3');
             break;    
         case 39:
             $("#carouselp2-39").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01117.mp3');
+            audioActual = new Audio('assets/voz/Sonido77_p37.mp3');
             break;  
         case 40:
-            audioActual = new Audio('assets/voz/U002P01119.mp3');
+            audioActual = new Audio('assets/voz/Sonido79_p38.mp3');
             break; 
         case 41:
-            audioActual = new Audio('assets/voz/U002P01120.mp3');
+            audioActual = new Audio('assets/voz/Sonido80_p39.mp3');
             break;  
         case 42:
-            audioActual = new Audio('assets/voz/U002P01125.mp3');
+            audioActual = new Audio('assets/voz/Sonido81_p40.mp3');
             break;
         case 43:
             $("#carouselp2-43").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01128.mp3');
+            audioActual = new Audio('assets/voz/Sonido82_p41.mp3');
             break;
         case 44:
-            audioActual = new Audio('assets/voz/U002P01132.mp3');
+            audioActual = new Audio('assets/voz/Sonido83_p42.mp3');
             break;
         case 45:
-            audioActual = new Audio('assets/voz/U002P01133.mp3');
+            audioActual = new Audio('assets/voz/U002P01133.mp3'); // sin audio
             break;
         case 46:
             $("#carouselp2-46").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01134.mp3');
+            audioActual = new Audio('assets/voz/U002P01134.mp3'); // sin audio
             break;
         case 47:
-            audioActual = new Audio('assets/voz/U002P01136.mp3');
+            audioActual = new Audio('assets/voz/Sonido87_p45.mp3');
             break;
         case 48:
-            audioActual = new Audio('assets/voz/U002P01137.mp3');
+            audioActual = new Audio('assets/voz/Sonido88_p46.mp3');
             break;
         case 49:
-            audioActual = new Audio('assets/voz/U002P01140.mp3');
+            audioActual = new Audio('assets/voz/U002P01140.mp3'); // sin audio
             break;
         case 50:
             $("#carouselActividadAprendizaje4").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01141.mp3');
+            audioActual = new Audio('assets/voz/Sonido89_p47.mp3');  
             break;
         case 51:
-            audioActual = new Audio('assets/voz/U002P01144.mp3');
+            audioActual = new Audio('assets/voz/Sonido95_p48.mp3');
             break;
         case 52:
-            audioActual = new Audio('assets/voz/U002P01145.mp3');
+            audioActual = new Audio('assets/voz/Sonido96_p49.mp3');
             break;
         case 53:
-            audioActual = new Audio('assets/voz/U002P01146.mp3');
+            audioActual = new Audio('assets/voz/Sonido97_p50.mp3');
             break;
         case 54:
-            audioActual = new Audio('assets/voz/U002P01147.mp3');
+            audioActual = new Audio('assets/voz/Sonido98_p51.mp3');
             break;
         case 55:
             $("#carouselp2-55").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01150.mp3');
+            audioActual = new Audio('assets/voz/Sonido99_p52.mp3');
             break;
         case 56:
-            audioActual = new Audio('assets/voz/U002P01152.mp3');
+            audioActual = new Audio('assets/voz/Sonido101_p53.mp3');
             break;
         case 57:
             $("#carouselp2-57").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01155.mp3');
+            audioActual = new Audio('assets/voz/Sonido102_p54.mp3');
             break;
         case 58:
-            audioActual = new Audio('assets/voz/U002P01160.mp3');
+            audioActual = new Audio('assets/voz/Sonido103_p55.mp3');
             break;
         case 59:
-            audioActual = new Audio('assets/voz/U002P01161.mp3');
+            audioActual = new Audio('assets/voz/Sonido104_p56.mp3   ');
             break;
         case 60:
             audioActual = new Audio('assets/voz/U002P01164.mp3');
             break;
         case 61:
             $("#carouselActividadAprendizaje5").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01165.mp3');
+            audioActual = new Audio('assets/voz/Sonido105_p57.mp3');
             break;
         case 62:
-            audioActual = new Audio('assets/voz/U002P01168.mp3');
+            audioActual = new Audio('assets/voz/Sonido111_p58.mp3');
             break;
         case 63:
             $("#carouselp2-63").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01170.mp3');
+            audioActual = new Audio('assets/voz/Sonido112_p59.mp3');
             break;
         case 64:
             $("#carouselp2-64").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01174.mp3');
+            audioActual = new Audio('assets/voz/Sonido113_p60.mp3');
             break;
         case 65:
             $("#carouselp2-65").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01181.mp3');
+            audioActual = new Audio('assets/voz/Sonido114_p61.mp3');
             break;
         case 66:
-            audioActual = new Audio('assets/voz/U002P01186.mp3');
+            audioActual = new Audio('assets/voz/Sonido115_p62.mp3');
             break;
         case 67:
-            audioActual = new Audio('assets/voz/U002P01187.mp3');
+            audioActual = new Audio('assets/voz/Sonido116_p63.mp3');
             break;
         case 68:
-            audioActual = new Audio('assets/voz/U002P01190.mp3');
+            audioActual = new Audio('assets/voz/Sonido117_p64.mp3');
             break;
         case 69:
-            audioActual = new Audio('assets/voz/U002P01191.mp3');
+            audioActual = new Audio('assets/voz/U002P01191.mp3'); // NO TIENE AUDIO
             break;
         case 70:
-            audioActual = new Audio('assets/voz/U002P01192.mp3');
+            audioActual = new Audio('assets/voz/Sonido119_p66.mp3');
             break;
         case 71:
-            audioActual = new Audio('assets/voz/U002P01193.mp3');
+            audioActual = new Audio('assets/voz/Sonido120_p67.mp3');
             break;
         case 72:
             $("#carouselp2-72").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01198.mp3');
+            audioActual = new Audio('assets/voz/Sonido121_p68.mp3');
             break;
         case 73:
             $("#carouselpantalla73").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01201.mp3');
+            audioActual = new Audio('assets/voz/Sonido122_p69.mp3');
             break;
         case 74:
             $("#carouselpantalla74").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01205.mp3');
+            audioActual = new Audio('assets/voz/Sonido123_p70.mp3');
             break;
         case 75:
-            audioActual = new Audio('assets/voz/U002P01211.mp3');
+            audioActual = new Audio('assets/voz/Sonido124_p71.mp3');
             break;
         case 76:
              $("#carouselpantalla76").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01212.mp3');
+            audioActual = new Audio('assets/voz/Sonido125_p72.mp3');
             break;
         case 77:
-            audioActual = new Audio('assets/voz/U002P01214.mp3');
+            audioActual = new Audio('assets/voz/U002P01214.mp3'); //SIN AUDIO
             break;
         case 78:
-            audioActual = new Audio('assets/voz/U002P01215.mp3');
+            audioActual = new Audio('assets/voz/U002P01215.mp3'); // SIN AUDIO
             break;
         case 79:
-            audioActual = new Audio('assets/voz/U002P01216.mp3');
+            audioActual = new Audio('assets/voz/Sonido128_p75.mp3');
             break;
         case 80:
-            audioActual = new Audio('assets/voz/U002P01217.mp3');
+            audioActual = new Audio('assets/voz/Sonido129_p76.mp3');
             break;
         case 81:
-            audioActual = new Audio('assets/voz/U002P01222.mp3');
+            audioActual = new Audio('assets/voz/U002P01222.mp3'); // SIN AUDIO
             break;
         case 82:
             $("#carouselActividadAprendizaje6").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01223.mp3');
+            audioActual = new Audio('assets/voz/Sonido124_p77.mp3');
             break;
         case 83:
-            audioActual = new Audio('assets/voz/U002P01226.mp3');
+            audioActual = new Audio('assets/voz/Sonido130_p78.mp3');
             break;
         case 84:
-            audioActual = new Audio('assets/voz/U002P01227.mp3');
+            audioActual = new Audio('assets/voz/Sonido131_p79.mp3');
             break;
         case 85:
-            audioActual = new Audio('assets/voz/U002P01228.mp3');
+            audioActual = new Audio('assets/voz/Sonido132_p80.mp3');
             break;
         case 86:
-            audioActual = new Audio('assets/voz/U002P01231.mp3');
+            audioActual = new Audio('assets/voz/Sonido133_p81.mp3');
             break;
         case 87:
-            audioActual = new Audio('assets/voz/U002P01232.mp3');
+            audioActual = new Audio('assets/voz/Sonido134_p82.mp3');
             break;
         case 88:
-            audioActual = new Audio('assets/voz/U002P01233.mp3');
+            audioActual = new Audio('assets/voz/Sonido135_p83.mp3');
             break;
         case 89:
             $("#carouselpantalla85").carousel(0);
-            audioActual = new Audio('assets/voz/U002P01234.mp3');
+            audioActual = new Audio('assets/voz/Sonido136_p84.mp3');
             break;
         case 90:
-            audioActual = new Audio('assets/voz/U002P01236.mp3');
+            audioActual = new Audio('assets/voz/Sonido137_p85.mp3');
             break;
         case 91:
-            audioActual = new Audio('assets/voz/U002P01239.mp3');
+            audioActual = new Audio('assets/voz/U002P01239.mp3');// SIN AUDIO
             break;
         case 92:
-            audioActual = new Audio('assets/voz/U14D183.mp3');
+            audioActual = new Audio('assets/voz/U14D183.mp3');  // SIN AUDIO
             break;
         case 93:
-            audioActual = new Audio('assets/voz/U14D183.mp3');
+            audioActual = new Audio('assets/voz/Sonido138_p87.mp3'); 
             break;                       
         default:
             audioActual = undefined;
@@ -1471,13 +1471,13 @@ $('#carouselActividadAprendizaje2').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01050.mp3';
+            audioLocation = 'assets/voz/Sonido27_p14.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01051.mp3';
+            audioLocation = 'assets/voz/Sonido29_p14.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
     
         default:
@@ -1494,13 +1494,13 @@ $('#carouselActividadAprendizaje3').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01106.mp3';
+            audioLocation = 'assets/voz/Sonido59_p31.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01107.mp3';
+            audioLocation = 'assets/voz/Sonido61_p31.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
     
         default:
@@ -1516,13 +1516,13 @@ $('#carouselActividadAprendizaje4').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01141.mp3';
+            audioLocation = 'assets/voz/Sonido89_p47.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01142.mp3';
+            audioLocation = 'assets/voz/Sonido91_p47.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
         default:
             break;
@@ -1537,13 +1537,13 @@ $('#carouselActividadAprendizaje5').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01165.mp3';
+            audioLocation = 'assets/voz/Sonido105_p57.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01166.mp3';
+            audioLocation = 'assets/voz/Sonido107_p57.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
         default:
             break;
@@ -1558,13 +1558,13 @@ $('#carouselActividadAprendizaje6').on('slid.bs.carousel', function () {
 
     switch (numeroSlide) {
         case 0:
-            audioLocation = 'assets/voz/U002P01223.mp3';
+            audioLocation = 'assets/voz/Sonido124_p77.mp3';
             break;
         case 1:
-            audioLocation = 'assets/voz/U002P01224.mp3';
+            audioLocation = 'assets/voz/Sonido126_p77.mp3';
             break;
         case 2:
-            audioLocation = 'assets/voz/U05D088.mp3';
+            audioLocation = 'assets/voz/estabien.mp3';
             break;
         default:
             break;

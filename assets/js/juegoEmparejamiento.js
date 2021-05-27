@@ -1,12 +1,63 @@
 var correctCards = 0;
 var intentosEmparejamiento = 0;
+var intentosEmparejamiento2 = 0;
 $(document).ready(function () { 
     
     init();
 });
+
+function init_X() {
+    // Reset the game
+    correctCards = 0;
+
+    $('#cardPile').html('');
+    $('#cardSlots').html('');
+
+    // Create the pile of shuffled cards
+    var columnaOrigen = ['La teoría de análisis de riesgos', 'Sistema de gestión integral:', 'Normas de documentación'];
+    var numbers = [1, 2, 3];
+    numbers.sort(function () { return Math.random() - .4 });
+
+
+
+    for (var i = 0; i < numbers.length; i++) {
+        $('<p class="btn btn-warning boton-juego emparejamiento_oculto" style="width:100%">' + columnaOrigen[numbers[i]-1] + '</p>').data('number', numbers[i]).attr('id', 'cardEmparejamiento' + numbers[i]).appendTo('#cardPile').draggable({
+            containment: '#contentEmparejamiento',
+            stack: '#cardPile p',
+            cursor: 'move',
+            revert: true
+        });
+    }
+
+    // Create the card slots
+    for (var i = 1; i <= numbers.length; i++) {
+        $('<p class="btn btn-warning" style="width:100%">...</p>').data('number', i).appendTo('#cardSlots').droppable({
+            accept: '#cardPile p',
+            hoverClass: 'hovered',
+            drop: handleCardDrop,
+            over: function(event, ui) {
+                ui.draggable.draggable('option','revert',false);
+            },
+            out: function(event, ui) {
+                ui.draggable.draggable('option','revert',true);
+            }
+        });
+    }
+    /*var words = ['...', '...', '...', '...'];
+    for (var i = 1; i <= words.length; i++) {
+        $('<p class="btn btn-warning" style="width:85%">' + words[i - 1] + '</p>').data('number', i).appendTo('#cardSlots').droppable({
+            accept: '#cardPile p',
+            hoverClass: 'hovered',
+            drop: handleCardDrop
+        });
+    }*/
+
+}
+
 function init() {
     // Reset the game
     correctCards = 0;
+    intentosEmparejamiento = 0;
     $('#cardPile').html('');
     $('#cardSlots').html('');
 
@@ -111,17 +162,69 @@ function validarResultado(){
                 'Puedes intentarlo de nuevo',
                 'error'
             )
+            init_X();
         }
     }
 }
 var correctCards2 = 0;
+
 $(document).ready(function () { 
     
     init2();
 });
+
+function init2_X() {
+    // Reset the game
+    correctCards2 = 0;
+
+    $('#cardPile2').html('');
+    $('#cardSlots2').html('');
+
+    // Create the pile of shuffled cards
+    var columnaOrigen = ['Sistema de aseguramiento de la calidad', 'Salud ocupacional', 'Control ambiental'];
+    var numbers = [1, 2, 3];
+    numbers.sort(function () { return Math.random() - .4 });
+
+    for (var i = 0; i < numbers.length; i++) {
+        $('<p class="btn btn-warning boton-juego emparejamiento_oculto2" style="width:100%">' + columnaOrigen[numbers[i]-1] + '</p>').data('number2', numbers[i]).attr('id', 'cardEmparejamient2' + numbers[i]).appendTo('#cardPile2').draggable({
+            containment: '#contentEmparejamiento2',
+            stack: '#cardPile2 p',
+            cursor: 'move',
+            revert: true
+        });
+    }
+
+    // Create the card slots
+    for (var i = 1; i <= numbers.length; i++) {
+        $('<p class="btn btn-warning" style="width:100%">...</p>').data('number2', i).appendTo('#cardSlots2').droppable({
+            accept: '#cardPile2 p',
+            hoverClass: 'hovered',
+            drop: handleCardDrop2,
+            over: function(event, ui2) {
+                ui2.draggable.draggable('option','revert',false);
+            },
+            out: function(event, ui2) {
+                ui2.draggable.draggable('option','revert',true);
+            }
+        });
+    }
+    /*var words = ['...', '...', '...', '...'];
+    for (var i = 1; i <= words.length; i++) {
+        $('<p class="btn btn-warning" style="width:85%">' + words[i - 1] + '</p>').data('number2', i).appendTo('#cardSlots2').droppable({
+            accept: '#cardPile2 p',
+            hoverClass: 'hovered',
+            drop: handleCardDrop2
+        });
+    }*/
+
+}
+
+
+
 function init2() {
     // Reset the game
     correctCards2 = 0;
+    intentosEmparejamiento2 =0;
     $('#cardPile2').html('');
     $('#cardSlots2').html('');
 
@@ -224,6 +327,7 @@ function validarResultado2(){
                 'Puedes intentarlo de nuevo',
                 'error'
             )
+            init2_X();
         }
     }
 }

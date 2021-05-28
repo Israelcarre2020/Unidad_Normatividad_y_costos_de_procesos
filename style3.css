@@ -11,8 +11,16 @@ body {
     overflow: hidden;
 }
 
+.true{
+    margin-top: -50px;
+}
 
 @media screen and (max-width: 900px) {
+
+    .true{
+        margin-top: 50px;
+    }
+    
 
     body {
         font-family: 'Sen', sans-serif;
@@ -324,7 +332,7 @@ a.article:hover {
 }
 
 .imagen100{
-    width: 30rem;
+    width: 20rem;
 }
 
 .titulo-unidad{
@@ -1269,6 +1277,19 @@ a.article:hover {
 .textsl25 span{
     font-size: 30px;
     font-weight: bold;
+}
+
+.img71{
+    width: 8rem;
+    margin: auto auto;
+    display: block;
+}
+
+
+.img72{
+    width: 5rem;
+    margin: auto auto;
+    display: block;
 }
 
 .img70{
